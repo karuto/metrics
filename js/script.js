@@ -3,8 +3,8 @@ $(function(){ // DOM Ready
 	// get hold of the API object
     var g = $(".gridster ul").gridster({
         widget_margins: [5, 5],
-        widget_base_dimensions: [390, 100], /* 1170 container width /3 = 390 */
-		max_cols: 4,
+        widget_base_dimensions: [85, 100], /* 1170 container width /12 = 97.5 */
+		// max_cols: 4,
 		resize: {
 			enabled: true,
 			max_size: [4, 4],
