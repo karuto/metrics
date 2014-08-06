@@ -9,6 +9,11 @@ body {
 .navbar-brand img {
 	height: 100%;
 }
-.gridster li {
+.gridster > ul {
+	list-style: none;
+}
+.gridster > ul > li {
+	list-style: none;
 	background-color: #FFF;
+	overflow: scroll;
 }
