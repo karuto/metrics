@@ -20,12 +20,16 @@
     <!-- Gridster CSS -->
     <link href="css/jquery.gridster.css" rel="stylesheet">
 
+    <!-- Roboto font -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,300italic,100italic,100,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+		
+		
 
 </head>
 
@@ -73,34 +77,45 @@
             <div class="col-lg-12 text-center">
 				<div class="gridster">
 				    <ul>
-				        <li data-row="1" data-col="1" data-sizex="12" data-sizey="4">
+				        <li data-row="1" data-col="1" data-sizex="12" data-sizey="4" class="ro-heroblock">
+							<header>
+								<span>Client overview</span>
+								<span class="glyphicon glyphicon-cog"></span>
+							</header>
+								<h1 class="ro-client">PiQ Bakery</h1>
 				        	<div id="dailysaleschart"></div>
 				        </li>
-				        <li data-row="1" data-col="1" data-sizex="6" data-sizey="3">
+				        <li data-row="2" data-col="1" data-sizex="6" data-sizey="1">
+				        	Vendor Invoices Gross Total
+				        </li>
+				        <li data-row="2" data-col="2" data-sizex="6" data-sizey="1">
+				        	Primary Vendor
+				        </li>
+				        <li data-row="3" data-col="1" data-sizex="6" data-sizey="3">
 				        	<div id="vendorpurchases"></div>
 				        </li>
-				        <li data-row="1" data-col="2" data-sizex="6" data-sizey="3">
+				        <li data-row="3" data-col="2" data-sizex="6" data-sizey="3">
 				        	<div id="vendoritems"></div>
 				        </li>
-				        <li data-row="2" data-col="1" data-sizex="4" data-sizey="1">
+				        <li data-row="4" data-col="1" data-sizex="4" data-sizey="1">
 				        	Gross sales
 				        </li>
-				        <li data-row="2" data-col="2" data-sizex="4" data-sizey="1">
+				        <li data-row="4" data-col="2" data-sizex="4" data-sizey="1">
 				        	Food cost
 				        </li>
-				        <li data-row="2" data-col="3" data-sizex="4" data-sizey="1">
+				        <li data-row="4" data-col="3" data-sizex="4" data-sizey="1">
 				        	Cost of goods sold
 				        </li>
-				        <li data-row="3" data-col="1" data-sizex="3" data-sizey="1">
+				        <li data-row="5" data-col="1" data-sizex="3" data-sizey="1">
 				        	Highest grossing products
 				        </li>
-				        <li data-row="3" data-col="2" data-sizex="3" data-sizey="1">
+				        <li data-row="5" data-col="2" data-sizex="3" data-sizey="1">
 				        	Highest margins' sales
 				        </li>
-				        <li data-row="3" data-col="3" data-sizex="3" data-sizey="1">
+				        <li data-row="5" data-col="3" data-sizex="3" data-sizey="1">
 				        	Biggest margin changes
 				        </li>
-				        <li data-row="3" data-col="4" data-sizex="3" data-sizey="1">
+				        <li data-row="5" data-col="4" data-sizex="3" data-sizey="1">
 				        	Lowest margins' sales
 				        </li>
 				    </ul>

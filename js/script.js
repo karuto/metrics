@@ -7,8 +7,8 @@ $(function(){ // DOM Ready
 		// max_cols: 4,
 		resize: {
 			enabled: true,
-			max_size: [4, 4],
-			min_size: [1, 1]
+			max_size: [12, 12],
+			min_size: [3, 1]
 		}
     }).data('gridster');
 	

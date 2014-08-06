@@ -1,14 +1,25 @@
+/* Guidelines: 
+	font-size: 9, 12, 16, 21, 28, 37, 50, 67;
+*/
+
 body {
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
 	background-color: #EEE;
 	padding-top: 70px;
 	/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
+
+/* Navi */
 .navbar {
 	background-color: #FFF;
 }
 .navbar-brand img {
 	height: 100%;
 }
+
+/* Grid */
 .gridster > ul {
 	list-style: none;
 }
@@ -16,4 +27,12 @@ body {
 	list-style: none;
 	background-color: #FFF;
 	overflow: scroll;
+	text-align: left;
+}
+
+/* Component specific */
+.ro-client {
+	color: #6F256F;
+	font-size: 37px;
+	font-weight: 300;
 }
