@@ -44,14 +44,18 @@ $(function(){ // DOM Ready
 	            chart: {
 	                type: 'line',
         			// Explicitly tell the width and height of a chart
-        			height: 300
+        			height: 300,
+		            zoomType: 'x'
 	            },
 				credits: {
 					enabled: false
 				},
+				exporting: {
+					enabled: true
+				},
 	            title: {
 					align: "left",
-	                text: 'Daily profit overview'
+	                text: ""
 	            },
 	            // subtitle: {
 	            //     text: 'Source: WorldClimate.com'
@@ -87,7 +91,7 @@ $(function(){ // DOM Ready
 	            },
 	            title: {
 					align: "left",
-	                text: 'Vendor purchases overview'
+	                text: ''
 	            },
 	            // subtitle: {
 	            //     text: 'Source: Wikipedia.org'
@@ -136,7 +140,7 @@ $(function(){ // DOM Ready
 	            },
 	            title: {
 					align: "left",
-	                text: 'Vendor items overview'
+	                text: ''
 	            },
 	            // subtitle: {
 	            //     text: 'Source: Wikipedia.org'

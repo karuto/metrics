@@ -1,5 +1,14 @@
-/* Guidelines: 
+/* Design guidelines 
+
+Fonts ====
 	font-size: 9, 12, 16, 21, 28, 37, 50, 67;
+
+Colors ====
+	color: http://www.paletton.com/#uid=74W0u0kllllaFw0g0qFqFg0w0aF
+	primary purple: #6E256E
+	green: #609732, yellow: #AAA039 (triad)
+	green: #609732, yellow: #91A437, red: #983351 (tetrad)
+
 */
 
 body {
@@ -25,6 +34,7 @@ body {
 /* Grid */
 .gridster > ul {
 	list-style: none;
+	margin: 0 auto 50px;
 }
 .gridster > ul > li {
 	font-size: 12px;
@@ -37,6 +47,7 @@ body {
 	padding: 10px;
 }
 .block-header {
+	width: 100%;
 	background-color: #EEE;
 	font-size: 16px;
 }
@@ -59,7 +70,21 @@ body {
 	
 }
 .ro-figure {
-	color: #6F256F;
+	color: #6E256E;
+}
+.ro-figure .subtext {
+	color: #666;
+	font-size: 21px;
+}
+.ro-figure .warning {
+	color: #91A437;
+	font-size: 21px;
+	font-weight: 300;
+}
+.ro-figure .subtext .glyphicon {
+	color: #666;
+	font-size: 16px;
+	padding-left: 5px;
 }
 .ro-heroblock {
 }
