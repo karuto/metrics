@@ -44,8 +44,7 @@ $(function(){ // DOM Ready
 	            chart: {
 	                type: 'line',
         			// Explicitly tell the width and height of a chart
-        			width: null
-        			// height: 400
+        			height: 300
 	            },
 				credits: {
 					enabled: false

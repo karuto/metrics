@@ -3,12 +3,15 @@
 */
 
 body {
-	font-size: 12px;
 	font-weight: 300;
+	color: #666;
 	font-family: 'Roboto', sans-serif;
 	background-color: #EEE;
 	padding-top: 70px;
 	/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.accent {
+	color: #6F256F;
 }
 
 /* Navi */
@@ -24,15 +27,39 @@ body {
 	list-style: none;
 }
 .gridster > ul > li {
+	font-size: 12px;
 	list-style: none;
 	background-color: #FFF;
 	overflow: scroll;
 	text-align: left;
 }
+.gridster article {
+	padding: 10px;
+}
+.block-header {
+	background-color: #EEE;
+	font-size: 16px;
+}
+.block-ctrls {
+	display: inline-block;
+	float: right;
+}
+.block-title {
+	float: left;
+	padding-bottom: 5px;
+}
 
 /* Component specific */
-.ro-client {
-	color: #6F256F;
+.ro-client,
+.ro-figure {
 	font-size: 37px;
 	font-weight: 300;
+}
+.ro-client {
+	
+}
+.ro-figure {
+	color: #6F256F;
+}
+.ro-heroblock {
 }
