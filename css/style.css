@@ -60,7 +60,34 @@ body {
 	padding-bottom: 5px;
 }
 
+/* Overwrite Bootstrap */
+.alert {
+	border-radius: 0px;
+	border: 0px;
+}
+.alert h4 {
+	font-weight: 300;
+	font-size: 21px;
+}
+.alert-success {
+	color: #3E7213;
+	background-color: #BAE397;
+}
+.alert-warning {
+	color: #6A7B15;
+	background-color: #E8F6A4;
+}
+.alert-danger {
+	color: #721330;
+	background-color: #e498af;
+}
+
+
+
 /* Component specific */
+#dailysaleschart {
+	width: 100%;
+}
 .ro-client,
 .ro-figure {
 	font-size: 37px;

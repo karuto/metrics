@@ -24,7 +24,7 @@ Highcharts.theme = {
 		}
 	},
 	xAxis: {
-		gridLineWidth: 1,
+		gridLineWidth: 0,
 		lineColor: '#666',
 		tickColor: '#666',
 		labels: {
@@ -44,7 +44,6 @@ Highcharts.theme = {
 		}
 	},
 	yAxis: {
-		minorTickInterval: 'auto',
 		lineColor: '#666',
 		lineWidth: 1,
 		tickWidth: 1,

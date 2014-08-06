@@ -42,9 +42,11 @@ $(function(){ // DOM Ready
 	
 	$('#dailysaleschart').highcharts({
 	            chart: {
+					// backgroundColor: '#A66FA6',
 	                type: 'line',
         			// Explicitly tell the width and height of a chart
         			height: 300,
+					alignTicks: true,
 		            zoomType: 'x'
 	            },
 				credits: {
@@ -57,6 +59,13 @@ $(function(){ // DOM Ready
 					align: "left",
 	                text: ""
 	            },
+		        plotOptions: {
+		            series: {
+		                animation: {
+		                    duration: 2000
+		                }
+		            }
+		        },
 	            // subtitle: {
 	            //     text: 'Source: WorldClimate.com'
 	            // },
