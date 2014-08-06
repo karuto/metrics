@@ -14,5 +14,30 @@ $(function(){ // DOM Ready
 	
 	// Add a new widget to the grid
 	// g.add_widget('<li class="new">The HTML of the widget...</li>', 2, 1);
+	
+	/* Highcharts below */
+    $('#herochart').highcharts({
+        chart: {
+            type: 'bar'
+        },
+        title: {
+            text: 'Fruit Consumption'
+        },
+        xAxis: {
+            categories: ['Apples', 'Bananas', 'Oranges']
+        },
+        yAxis: {
+            title: {
+                text: 'Fruit eaten'
+            }
+        },
+        series: [{
+            name: 'Jane',
+            data: [1, 0, 4]
+        }, {
+            name: 'John',
+            data: [5, 7, 3]
+        }]
+    });
  
 });
