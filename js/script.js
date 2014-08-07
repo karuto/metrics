@@ -300,5 +300,52 @@ $(function(){ // DOM Ready
     });
 	
 			
+    $('#bubblechart').highcharts({
+
+        chart: {
+            type: 'bubble',
+            zoomType: 'xy',
+        },
+
+        title: {
+            text: ''
+        },
+       
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Item margin $',
+            },
+           
+        },
+		credits: {
+			enabled: false
+		},
+       
+        xAxis: {
+            title: {
+                text: 'Sales quantity',
+            },
+           
+        },
+
+        series: [{
+            name: 'Highest Grossing Items',
+            data: [[90, 2.30, 207], [21, 7.3, 153.3], [23, 5.79, 133.17]]
+        }, {
+            name: 'Highest Selling Items',
+            data: [[104, .9, 93.6], [73, 1.6, 116.8],[90,2.3,207]],
+        }, {
+            name: 'Highest Margin Items',
+            data: [[4, 9.87, 39.48], [10, 7.21, 72.10],[21,7.3,153.3]],
+        }, {
+            name: 'Lowest Margin Items',
+            data: [[21, 1.13, 23.73], [3, 1.39, 4.17],[23,.8,18.4]],
+        }, {
+            name: 'Other Items',
+            data: [[40, 2,80], [21, 6, 126],[15, 4,60],[16,5.5,88],[56,2,112],[42,3.08,128.52]],
+       
+        }]
+    });
  
 });
