@@ -74,7 +74,7 @@ $(function(){ // DOM Ready
 	            },
 	            yAxis: {
 	                title: {
-	                    text: 'Sales ($)'
+	                    text: 'Profit ($)'
 	                }
 	            },
 	            plotOptions: {
@@ -191,6 +191,113 @@ $(function(){ // DOM Ready
 	                data: [6083, 4914, 4332, 3193, 3055, 2789, 2394, 2207, 1759, 1208]
 	            }]
 	});
+	
+	
+	
+	$('#ss-primary').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: ''
+        },
+        subtitle: {
+            text: ''
+        },
+		credits: {
+			enabled: false
+		},
+        xAxis: {
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+            tickmarkPlacement: 'on',
+            title: {
+                enabled: false
+            }
+        },
+        yAxis: {
+            title: {
+                text: 'Sales volume ($)'
+            }
+        },
+        tooltip: {
+            shared: true,
+            valueSuffix: ' Sales volume ($)'
+        },
+        plotOptions: {
+            area: {
+                stacking: 'normal',
+                lineColor: '#666666',
+                lineWidth: 1,
+                marker: {
+                    lineWidth: 1,
+                    lineColor: '#666666'
+                }
+            }
+        },
+        series: [{
+            name: 'Gross sales',
+            data: [1502, 1635, 1809, 1947, 1402, 3634, 5268]
+        }, {
+            name: 'Net sales',
+            data: [1633, 1607, 1979, 2133, 2221, 3767, 5766]
+        }, {
+            name: 'Order count',
+            data: [1163, 1203, 1276, 1408, 1547, 1729, 1628]
+        }]
+    });
+	
+	
+	$('#ss-secondary').highcharts({
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: ''
+        },
+        subtitle: {
+            text: ''
+        },
+		credits: {
+			enabled: false
+		},
+        xAxis: {
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+            tickmarkPlacement: 'on',
+            title: {
+                enabled: false
+            }
+        },
+        yAxis: {
+            title: {
+                text: 'Sales volume ($)'
+            }
+        },
+        tooltip: {
+            shared: true,
+            valueSuffix: ' Sales volume ($)'
+        },
+        plotOptions: {
+            area: {
+                stacking: 'normal',
+                lineColor: '#666666',
+                lineWidth: 1,
+                marker: {
+                    lineWidth: 1,
+                    lineColor: '#666666'
+                }
+            }
+        },
+        series: [{
+            name: 'Gross sales',
+            data: [1502, 1635, 1809, 1947, 1402, 3634, 5268]
+        }, {
+            name: 'Net sales',
+            data: [1633, 1607, 1979, 2133, 2221, 3767, 5766]
+        }, {
+            name: 'Order count',
+            data: [1163, 1203, 1276, 1408, 1547, 1729, 1628]
+        }]
+    });
 	
 			
  

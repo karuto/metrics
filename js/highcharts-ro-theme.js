@@ -4,7 +4,7 @@
  */
 
 Highcharts.theme = {
-	colors: ["#A66FA6", "#91A437", "#609732", "#983351"],
+	colors: ["#A66FA6", "#89BD5F", "#983351", "#609732"],
 	chart: {
 		backgroundColor: '#FFF',
 		borderWidth: 0,
@@ -44,6 +44,7 @@ Highcharts.theme = {
 		}
 	},
 	yAxis: {
+		minorTickInterval: 'auto',
 		lineColor: '#666',
 		lineWidth: 1,
 		tickWidth: 1,
