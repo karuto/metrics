@@ -320,7 +320,7 @@ $(function(){ // DOM Ready
         },
 		credits: {
 			enabled: false
-		}, 
+		},
        
         xAxis: {
             title: {
