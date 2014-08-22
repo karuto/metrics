@@ -24,10 +24,9 @@ Brand Colors
 */
 
 body {
-	font-weight: 300;
+/*	font-weight: 300;*/
 	color: #333;
-	font-family: 'Roboto', sans-serif;
-	background-color: #EEE;
+/*	font-family: 'Roboto', sans-serif;*/
 	padding-top: 70px;
 	/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
@@ -81,6 +80,7 @@ body {
 	font-weight: 300;
 	font-size: 21px;
 }
+/*
 .alert-success {
 	color: #3E7213;
 	background-color: #BAE397;
@@ -93,8 +93,15 @@ body {
 	color: #721330;
 	background-color: #e498af;
 }
+*/
 
-
+/* Structure */
+.content-wrapper {
+	background: #FFF;
+	border-left: 1px solid #dddddd;;
+	border-right: 1px solid #dddddd;;
+	border-bottom: 1px solid #dddddd;;
+}
 
 /* Component specific */
 #dailysaleschart {
