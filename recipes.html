@@ -32,6 +32,7 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 		
 		
 
@@ -82,35 +83,37 @@
 
     <!-- Page Content -->
     <div class="container">
-		<div class="row">
-  		  <div class="col-md-12">
-		  <ul class="nav nav-tabs" role="tablist" id="myTab">
+		<div class="nav-wrapper">
+		 <ul class="nav nav-tabs" role="tablist" id="myTab">
 		    <li class="active"><a href="#recipes" role="tab" data-toggle="tab">Recipes</a></li>
 		    <li><a href="#items" role="tab" data-toggle="tab">Inventory Items</a></li>
 		    <li><a href="#conversions" role="tab" data-toggle="tab">Conversions</a></li>
 		  </ul>
-		  </div>
-
-  		  <div class="col-md-12">
-		  <div class="content-wrapper tab-content">
-		    <div class="tab-pane active" id="recipes">Recipes</div>
-		    <div class="tab-pane" id="items">Items</div>
-		    <div class="tab-pane" id="conversions">Conversions</div>
-		  </div>
-		  </div>
-
-
-		  
-		</div>
-		<div class="row">
-  		  <div class="col-md-4">.col-md-4</div>
-  		  <div class="col-md-4">.col-md-4</div>
-  		  <div class="col-md-4">.col-md-4</div>
 		</div>
 
-
-    </div>
-    <!-- /.container -->
+		<div class="content-wrapper clearfix tab-content">
+		  <div class="tab-pane active" id="recipes">
+			<div class="row">
+	  		  <div class="col-md-12" id="hero">hero col-12 within row</div>
+		  	</div>
+	  		<div class="col-md-12" id="hero">hero col-12 without row</div>
+			
+			<div class="clearfix" style="width: 100%">
+				My own div of full width
+			</div>
+			
+			<div class="row">
+	  		  <div class="col-md-12" id="filter">filter</div>
+		  	</div>
+		  </div>
+		  <div class="tab-pane" id="items">
+			  Items
+		  </div>
+		  <div class="tab-pane" id="conversions">
+			  Conversions
+		  </div>
+		</div><!-- .content-wrapper .tab-content -->
+	</div><!-- .container -->
 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
