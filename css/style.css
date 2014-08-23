@@ -98,9 +98,10 @@ body {
 /* Structure */
 .content-wrapper {
 	background: #FFF;
-	border-left: 1px solid #dddddd;;
-	border-right: 1px solid #dddddd;;
-	border-bottom: 1px solid #dddddd;;
+	border-left: 1px solid #ddd;;
+	border-right: 1px solid #ddd;;
+	border-bottom: 1px solid #ddd;
+	padding: 20px 0;
 }
 
 /* Component specific */
