@@ -1,0 +1,21 @@
+{
+  "name": "metrics",
+  "version": "0.0.1",
+  "description": "A minisite for showcasing data visualization and dynamic layouts.",
+  "main": "index.html",
+  "scripts": {
+    "test": "N/A"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karuto/metrics.git"
+  },
+  "author": "Vincent Zhang",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/karuto/metrics/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  }
+}
